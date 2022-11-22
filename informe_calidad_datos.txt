@@ -1,0 +1,82 @@
+
+
+orders.csv:
+
+Nulls: 
+order_id    0
+date        0
+time        0
+dtype: int64
+
+Nans: 
+order_id    0
+date        0
+time        0
+dtype: int64
+
+Tipos en la columna order_id:int64
+Tipos en la columna date:object
+Tipos en la columna time:object
+
+pizzas.csv:
+
+Nulls: 
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Nans: 
+pizza_id         0
+pizza_type_id    0
+size             0
+price            0
+dtype: int64
+
+Tipos en la columna pizza_id:object
+Tipos en la columna pizza_type_id:object
+Tipos en la columna size:object
+Tipos en la columna price:float64
+
+order_details.csv:
+
+Nulls: 
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Nans: 
+order_details_id    0
+order_id            0
+pizza_id            0
+quantity            0
+dtype: int64
+
+Tipos en la columna order_details_id:int64
+Tipos en la columna order_id:int64
+Tipos en la columna pizza_id:object
+Tipos en la columna quantity:int64
+
+pizza_types.csv:
+
+Nulls: 
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Nans: 
+pizza_type_id    0
+name             0
+category         0
+ingredients      0
+dtype: int64
+
+Tipos en la columna pizza_type_id:object
+Tipos en la columna name:object
+Tipos en la columna category:object
+Tipos en la columna ingredients:object
