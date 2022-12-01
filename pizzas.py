@@ -11,11 +11,14 @@ the size and pizza type
 import pandas as pd
 import signal
 import sys
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 def handler_signal(signal,frame):
 
-    # Salida controlada del programa en caso de pulsar 
+    # Salida controlada del programa en caso de pulsar
     # control C
 
     print("\n\n [!] out .......\ n")
@@ -203,4 +206,4 @@ if __name__ == '__main__':
     fechas, pedidos, detalles, ingredientes = extract_csv()
     datos = transform_csv(fechas, pedidos, detalles, ingredientes)
     res = transform(datos)
-    load(res, informe)
+    load(res)
